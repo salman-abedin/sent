@@ -52,6 +52,7 @@ install: all
 	@mkdir -p ${DESTDIR}${MANPREFIX}/man1
 	@cp sent.1 ${DESTDIR}${MANPREFIX}/man1/sent.1
 	@chmod 644 ${DESTDIR}${MANPREFIX}/man1/sent.1
+	@rm -f sent ${OBJ}
 
 uninstall:
 	@echo removing executable file from ${DESTDIR}${PREFIX}/bin
