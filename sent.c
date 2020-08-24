@@ -19,6 +19,7 @@
 #include <X11/Xutil.h>
 #include <X11/Xft/Xft.h>
 
+
 #include "arg.h"
 #include "util.h"
 #include "drw.h"
@@ -681,6 +682,7 @@ usage()
 {
 	die("usage: %s [file]", argv0);
 }
+
 
 int
 main(int argc, char *argv[])
